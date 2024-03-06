@@ -10,11 +10,11 @@
 
     End Sub
 
-    public Function PalindroomVastus(vastus As Boolean) As String
+    Public Function PalindroomVastus(vastus As Boolean) As String
         If vastus Then
-            return "Jah"
+            Return "Jah"
         Else
-            return "Ei"
+            Return "Ei"
         End If
     End Function
 
